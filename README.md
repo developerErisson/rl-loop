@@ -1,4 +1,4 @@
-# baixando projeto
+# baixar projeto
 - git clone https://github.com/developerErisson/rl-loop.git
 - crie o copie e cole o arquivo .env.example 
 - preencha a variavel OPENAI_API_KEY
@@ -7,11 +7,11 @@
 - docker compose build
 - docker compose up -d
 
-# obs
--projeto vai subir na porta 3000 interno e externo
--saidas do llm estao na pasta /outputs
+# *obs*
+_projeto vai subir na porta 3000 interno e externo_
+_saidas do llm estao na pasta /outputs_
 
 # api
-mothed POST 
-route /generate 
-body {"task": "Escreva um script de vendas para uma loja de vinhos"}
+**mothed POST**
+**route /generate** 
+**body {"task": "Escreva um script de vendas para uma loja de vinhos"}**
